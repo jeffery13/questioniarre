@@ -1,0 +1,19 @@
+username = input('Your Username: ')
+password = input('Your password: ')
+
+password_length =len(password)
+asteriks = password_length * '*'
+
+print(f"Hey {username} , your {asteriks} is {password_length} letters long")
+
+enter = input('Click enter')
+
+
+question_1 = input('How old are you?')
+question_2 = input('Where do you live?')
+question_3 = input('What is your favorite food?')
+
+print (f'''From the information provided;
+       you are {question_1} years old,
+       you live in {question_2} 
+       and your favorite food is {question_3}''')
